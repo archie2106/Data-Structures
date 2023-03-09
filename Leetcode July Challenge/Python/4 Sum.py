@@ -2,9 +2,9 @@ class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         
         
-        result=[]
-        nums.sort()
-        
+        if(nums.size() == 0)
+        return 0;
+        sort(nums.begin(), nums.end())        
         for i in range(len(nums)-3):
             if i>0 and nums[i]==nums[i-1]:
                 continue
